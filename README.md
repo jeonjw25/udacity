@@ -24,6 +24,10 @@ python create_splits.py --data-dir /home/workspace/data
 ```
 
 ### 3. EDA
+
+- I added class names for each object above the bounding box.
+- I've statistically measured the amount of boxes per class in 10 pictures.
+
 The analyzed images are in the `/EDA_images` folder.
 
 ![image](https://user-images.githubusercontent.com/54730375/210509597-66d91e1d-8dc8-4cb3-8781-ac6ad6427ca1.png)
