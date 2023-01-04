@@ -94,16 +94,32 @@ To monitor the training, you can launch a tensorboard instance by running python
   - train: 270
   - validation: 15
   - test: 15
+- reason
+  - I thought there were too few datasets.(too large loss value)
 
 - Hyper parameters control
   - lr: 0.04 -> 0.03999999910593033
   - warmup_learnig_rate: 0.013333 -> 0.013333000242710114
   - box prediction l2_weight: 0.0004 -> 0.000397
   - conv_hyperparams l2_regularizer_weight: 0.0004 -> 0.00037
+- reason
+![image](https://user-images.githubusercontent.com/54730375/210499957-d85d314c-7994-4d69-9acc-1e5b54dc7517.png)
+
+It was confirmed that the regularization loss decreases and then increases significantly from a certain point.  
+Due to this phenomenon, we decided to reduce the regularization loss weight value.  
+
+<br>
+
+Other parameters have been verified to be rounded automatically when a new config file is created.  
+I just eliminated the phenomenon of rounding.  
 
 - Increase learning steps: 25000 -> 35000
-
+- reason  
+  - I thought 25000 times Iterations were too few.
+  
 ![image](https://user-images.githubusercontent.com/54730375/210225352-cfcd5583-8244-48a4-8afe-06ca9b1bdc63.png)
+
+As the learning progresses, the gap between evaluation loss and train loss does not widen, indicating that overfitting did not occur.  
 
 - train loss: 1
 - eval_loss: 1.5
