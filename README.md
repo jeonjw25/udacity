@@ -26,8 +26,9 @@ python create_splits.py --data-dir /home/workspace/data
 ### 3. EDA
 The analyzed images are in the `/EDA_images` folder.
 
-![image](https://user-images.githubusercontent.com/54730375/210225311-4d1dba00-3c2f-4f75-be4a-177736d8ae7b.png)
+![image](https://user-images.githubusercontent.com/54730375/210509597-66d91e1d-8dc8-4cb3-8781-ac6ad6427ca1.png)
 
+![image](https://user-images.githubusercontent.com/54730375/210510226-d0ce4867-f918-4280-ba00-88b4d3f77e06.png)  
 
 ### 4. Edit the config file
 
