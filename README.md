@@ -88,6 +88,8 @@ To monitor the training, you can launch a tensorboard instance by running python
 
 ![image](https://user-images.githubusercontent.com/54730375/210224803-c3679e9e-fd7a-465f-ae89-9a9efa5b1f22.png)
 
+As the learning progresses, the gap between evaluation loss and train loss does not widen, indicating that overfitting did not occur.
+
 - training loss: 3.0
 - evaluation loss: 4.8
 
@@ -107,6 +109,7 @@ To monitor the training, you can launch a tensorboard instance by running python
   - warmup_learnig_rate: 0.013333 -> 0.013333000242710114
   - box prediction l2_weight: 0.0004 -> 0.000397
   - conv_hyperparams l2_regularizer_weight: 0.0004 -> 0.00037
+  
 - reason
 ![image](https://user-images.githubusercontent.com/54730375/210499957-d85d314c-7994-4d69-9acc-1e5b54dc7517.png)
 
