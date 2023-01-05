@@ -124,7 +124,9 @@ I just eliminated the phenomenon of rounding.
 - Increase learning steps: 25000 -> 35000
 - reason  
   - I thought 25000 times Iterations were too few.
-  
+
+## Results
+
 ![image](https://user-images.githubusercontent.com/54730375/210225352-cfcd5583-8244-48a4-8afe-06ca9b1bdc63.png)
 
 As the learning progresses, the gap between evaluation loss and train loss does not widen, indicating that overfitting did not occur.  
