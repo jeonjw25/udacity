@@ -136,12 +136,12 @@ As the learning progresses, the gap between evaluation loss and train loss does 
   
 ## Results
 
-![image](https://user-images.githubusercontent.com/54730375/210225352-cfcd5583-8244-48a4-8afe-06ca9b1bdc63.png)
+![image](https://user-images.githubusercontent.com/54730375/211735856-67c63ae4-7657-4219-ada0-60a85bd58732.png)
 
 As the learning progresses, the gap between evaluation loss and train loss does not widen, indicating that overfitting did not occur.  
 
-- train loss: 1
-- eval_loss: 1.5
+- train loss: 0.9
+- eval_loss: 0.8
 
 ## Video inference
 ![animation (1)](https://user-images.githubusercontent.com/54730375/210226556-462f86f1-61d5-485a-bd23-4df002e03e10.gif)
