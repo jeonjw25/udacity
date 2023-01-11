@@ -144,4 +144,4 @@ As the learning progresses, the gap between evaluation loss and train loss does 
 - eval_loss: 0.8
 
 ## Video inference
-![animation (1)](https://user-images.githubusercontent.com/54730375/210226556-462f86f1-61d5-485a-bd23-4df002e03e10.gif)
+![animation (2)](https://user-images.githubusercontent.com/54730375/211737691-ad1f9ae2-e89b-4dd8-b93f-4d76889793cc.gif)
