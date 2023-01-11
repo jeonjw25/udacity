@@ -104,8 +104,8 @@ As the learning progresses, the gap between evaluation loss and train loss does 
 - reason
   - I thought there were too few datasets.(too large loss value)
 
-- change optimizer: momentum -> Adam
-  -reason: more fast
+- change optimizer: momentum -> Adam  
+  - reason: faster
  
  ![1_XVFmo9NxLnwDr3SxzKy-rA](https://user-images.githubusercontent.com/54730375/211721010-99738097-f5f9-43c1-9254-dd6c177fb476.gif)
 - l2_regularizer weight 0.0004 -> 0.00037  
