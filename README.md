@@ -105,21 +105,22 @@ As the learning progresses, the gap between evaluation loss and train loss does 
   - I thought there were too few datasets.(too large loss value)
 
 - change optimizer: momentum -> Adam
- -reason: more fast
+  -reason: more fast
  
  ![1_XVFmo9NxLnwDr3SxzKy-rA](https://user-images.githubusercontent.com/54730375/211721010-99738097-f5f9-43c1-9254-dd6c177fb476.gif)
 - l2_regularizer weight 0.0004 -> 0.00037  
-- reason
+  - reason
+    - It was confirmed that the regularization loss decreases and then increases significantly from a certain point.  Due to this phenomenon, we decided to reduce the regularization loss weight value. 
+
 ![image](https://user-images.githubusercontent.com/54730375/210499957-d85d314c-7994-4d69-9acc-1e5b54dc7517.png)
 
-It was confirmed that the regularization loss decreases and then increases significantly from a certain point.  
-Due to this phenomenon, we decided to reduce the regularization loss weight value.  
+ 
 
 <br>
   
 - Increase learning steps: 25000 -> 35000
- - reason  
-   - I thought 25000 times Iterations were too few.
+  - reason  
+    - I thought 25000 times Iterations were too few.
 
 - data augmentation
   - random_horizontal_flip
@@ -127,9 +128,9 @@ Due to this phenomenon, we decided to reduce the regularization loss weight valu
   - random_adjust_brightness
   - random_black_patches
   
-  - example image in Explore_augmentations.ipynb
+- example image in Explore_augmentations.ipynb
   
-  ![image](https://user-images.githubusercontent.com/54730375/211719359-36e111c7-4054-4d3b-9551-748a03694f79.png)  
+![image](https://user-images.githubusercontent.com/54730375/211719359-36e111c7-4054-4d3b-9551-748a03694f79.png)  
   
 
   
